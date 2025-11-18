@@ -6,4 +6,4 @@ This course covered the basic of python programming like data structures, contro
 
 Programming Assignments:
 - [Modelling Epidemics](https://classes.cs.uchicago.edu/archive/2022/fall/30121-1/pa/pa1/index.html)
-- - For this assignment I implemented an SIR model to track the spread of infection. 
+ - For this assignment I implemented an SIR model to track the spread of infection. 
