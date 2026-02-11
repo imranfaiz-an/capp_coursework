@@ -15,5 +15,5 @@ Programming Assignments:
   - Overview: This assignment introduced dictionaries and their implementation in Python. I analyzed tweets from 4 four political parties in Britian and explored things like the most frequent terms mentioned in the tweets, frequent phrases, etc.
   - Topics covered: dictionaries, sets, dictionary and list comprehensions, k-mers
 - [Polling Places](https://classes.cs.uchicago.edu/archive/2022/fall/30121-1/pa/pa4/index.html) (OOP)
- - Overview: The goal of this assignment was to practice designing and implementing classes and methods, and working with class instances. In this assignment, I wrote code to simulate the flow of voters through polling places and analyze the interplay the number of voting booths assigned to a precinct and the amount of time voters spend waiting in line.
- - Topics Covered: stacks, queues, classes, attributes (class vs. instance attributes), methods (e.g. dunder methods)
+  - Overview: The goal of this assignment was to practice designing and implementing classes and methods, and working with class instances. In this assignment, I wrote code to simulate the flow of voters through polling places and analyze the interplay the number of voting booths assigned to a precinct and the amount of time voters spend waiting in line.
+  - Topics Covered: stacks, queues, classes, attributes (class vs. instance attributes), methods (e.g. dunder methods)
