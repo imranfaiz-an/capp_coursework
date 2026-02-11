@@ -9,7 +9,7 @@ Programming Assignments:
   - Overview: This assignment introduced basic python concepts and skills. For this assignment I wrote code simulate a simplified version of the SIR epidemic model. The model quantified how an infection spreads through a city.
   - Topics covered: control flows and basic python data structures (tuples, lists, integers, floats, booleans)
 - [Schelling Model of Housing Segregation](https://www.classes.cs.uchicago.edu/archive/2024/summer/52072-1/assignments/proj1/index.html) (Functions)
-  - Overview: For this assignment I modeled how a neighborhood with people of different identities segregates over time based on a simplified criterion which was a function of the neighbors each ```i, j``` indvidual had in 2D. \
+  - Overview: For this assignment I modeled how a neighborhood with people of different identities segregates over time based on a simplified criterion which was a function of the neighbors each ```i, j``` indvidual had in 2D.
   - Topics covered: for/while loops, functions and their parameters, return statements
 - [Analyzing Candidate Tweets](https://classes.cs.uchicago.edu/archive/2022/fall/30121-1/pa/pa3/index.html) (Dictionaries)
   - Overview: This assignment introduced dictionaries and their implementation in Python. I analyzed tweets from 4 four political parties in Britian and explored things like the most frequent terms mentioned in the tweets, frequent phrases, etc.
