@@ -26,9 +26,14 @@ Programming Assignments:
 
 ## Computer Science with Applications - CAPP 122 (Winter 2026)
 
-- Congressional Hearings (API)
+- Congressional Hearings (APIs)
+  - Libraries Used: HTTPX, pathlib
 - Scraping Chicago Parks (Web Scaping)
-- What's the News (Markov Model and Hash Tables)
-- EPA Analysis (Geospatial data analysis)
-- Data Linkage and Cleaning (String matching algorithm optimization)
+  - Libraries Used: cssselect, lxml.html, re
+- What's the News (Markov Model & Hash Tables)
+  
+- EPA Analysis (Geospatial Data Analysis)
+  - Libraries Used: Shapely, pyshp, 
+- Data Linkage and Cleaning (String Matching Algorithm Optimization)
+  - Libraries Used: Jellyfish, re
 - Trade Graphs (Graphical thinking in Python)
