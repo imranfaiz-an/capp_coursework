@@ -1,7 +1,9 @@
 # Relevant CAPP Coursework
 This repository lists some of the programming assignments that I worked on as part of the core CAPP curriculum. (Code can be shared on request)
 
-## Computer Science with Applications - CAPP 121
+---
+
+## Computer Science with Applications - CAPP 121 (Fall 2025)
 This course covered the basic of python programming like data structures, control flows, iterations, oop, recursions and provided an introduction to numpy and pandas. After each module I worked on a programming assignment related to one of the aforementioned core concepts.
 
 Programming Assignments:
@@ -17,3 +19,16 @@ Programming Assignments:
 - [Polling Places](https://classes.cs.uchicago.edu/archive/2022/fall/30121-1/pa/pa4/index.html) (OOP)
   - Overview: The goal of this assignment was to practice designing and implementing classes and methods, and working with class instances. In this assignment, I wrote code to simulate the flow of voters through polling places and analyze the interplay the number of voting booths assigned to a precinct and the amount of time voters spend waiting in line.
   - Topics Covered: stacks, queues, classes, attributes (class vs. instance attributes), methods (e.g. dunder methods)
+- [Visualizing Avian Biodiversity Using Treemaps](https://classes.cs.uchicago.edu/archive/2022/fall/30121-1/pa/pa6/index.html) (Recursions)
+  - For this assignment I worked with the tree data structure in Python and used treemaps to visualize the frequency of bird sightings throughout the year.
+  - Topics covered: trees, recursive lookups and binary searches
+---
+
+## Computer Science with Applications - CAPP 122 (Winter 2026)
+
+- Congressional Hearings (API)
+- Scraping Chicago Parks (Web Scaping)
+- What's the News (Markov Model and Hash Tables)
+- EPA Analysis (Geospatial data analysis)
+- Data Linkage and Cleaning (String matching algorithm optimization)
+- Trade Graphs (Graphical thinking in Python)
