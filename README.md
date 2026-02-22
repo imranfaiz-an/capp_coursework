@@ -30,8 +30,7 @@ Programming Assignments:
   - Libraries Used: HTTPX, pathlib
 - Scraping Chicago Parks (Web Scaping)
   - Libraries Used: cssselect, lxml.html, re
-- What's the News (Markov Model & Hash Tables)
-  - I implemented a hash table data structure in this class with O(1) complexity which was then used to store 
+- What's the News (Markov Model & Hash Tables) 
 - EPA Analysis (Geospatial Data Analysis)
   - Libraries Used: Shapely, pyshp, 
 - Data Linkage and Cleaning (String Matching Algorithm Optimization)
