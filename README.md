@@ -1,6 +1,23 @@
-# Relevant CAPP Coursework
+# Relevant CAPP CS Coursework
 This repository lists some of the programming assignments that I worked on as part of the core CAPP curriculum. (Code can be shared on request)
 
+---
+
+
+## Computer Science with Applications - CAPP 122 (Winter 2026)
+
+- Congressional Hearings (APIs)
+  - Libraries Used: HTTPX, pathlib
+- Scraping Chicago Parks (Web Scaping)
+  - Libraries Used: cssselect, lxml.html, re
+- What's the News (Markov Model & Hash Tables) 
+- EPA Analysis (Geospatial Data Analysis)
+  - Libraries Used: Shapely, pyshp, 
+- Data Linkage and Cleaning (String Matching Algorithm Optimization)
+  - Libraries Used: Jellyfish, re
+- Trade Graphs (Netwrok Analysis & Graphs)
+  - Libraries Used: NetworkX
+ 
 ---
 
 ## Computer Science with Applications - CAPP 121 (Fall 2025)
@@ -24,16 +41,3 @@ Programming Assignments:
   - Topics covered: trees, recursive lookups and binary searches
 ---
 
-## Computer Science with Applications - CAPP 122 (Winter 2026)
-
-- Congressional Hearings (APIs)
-  - Libraries Used: HTTPX, pathlib
-- Scraping Chicago Parks (Web Scaping)
-  - Libraries Used: cssselect, lxml.html, re
-- What's the News (Markov Model & Hash Tables) 
-- EPA Analysis (Geospatial Data Analysis)
-  - Libraries Used: Shapely, pyshp, 
-- Data Linkage and Cleaning (String Matching Algorithm Optimization)
-  - Libraries Used: Jellyfish, re
-- Trade Graphs (Netwrok Analysis & Graphs)
-  - Libraries Used: NetworkX
