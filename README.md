@@ -4,23 +4,32 @@ This repository lists some of the programming assignments that I worked on as pa
 ---
 
 
-## Computer Science with Applications - CAPP 122 (Winter 2026)
+## Computer Science with Applications II - CAPP 122 (Winter 2026)
 
 - Congressional Hearings (APIs)
+  - For this assignment I worked with a live API based on the official congress.gov JSON API. I wrote a module to download, cache and load the API data, after converting the JSON data to a CSV file I do basic word count analysis using ngrams. To finish I wrote CLI to allow users to get a breakdown for the most used words in congress on a given day and to search for a word and get a count of how many times in total it has been heard in congressional hearings.
   - Libraries Used: HTTPX, pathlib
+  - Topics covered: Caching API data, working with a real API, text analysis
 - Scraping Chicago Parks (Web Scaping)
+  - Built web scrapers to crawl Chicago Parks website, this assignment provided an introduction to inspecting HTML code for websites and how different divisions, ids and classes can be exploited to get to a specific part of the website and fetch that data (using cssselect and lxml.html libraries). Once I fetch all the data through crawls all webpages for indvidual parks on the website I clean the text using re library and save the complete dataset as JSON.
   - Libraries Used: cssselect, lxml.html, re
-- What's the News (Markov Model & Hash Tables) 
+- What's the News (Markov Model & Hash Tables)
+  - Developed a text modeling system using Markov models. This assignment introduced key CS concepts like time complexity and how to implement O(1) data structures to help reduce compute time. I implemented a Hash Table data structure with [linear probing](https://en.wikipedia.org/wiki/Linear_probing) from scratch. The Hash Table had ```__setitem__ & __getitem__``` where I was explicitly handling collision cases and rehashing the entire table if the length exceeded a certain threshold. Once the Hash Table was implemented I implemented the Markov model (learning algorithm) that takes text as input and return the probabilty that the text comes from a given source.
+  - Topics Covered: time complexity, hash tables, markov models  
 - EPA Analysis (Geospatial Data Analysis)
-  - Libraries Used: Shapely, pyshp, 
+  - I worked with QuadTree data structure for this assignment and worked on optimizing the function to check if one geospatial data structure contains another (e.g., points within polygons). Using bounding boxes around polygons and checking whether the point is within the boundbox before checking within a polygon I was able to reduce the total computation time significantly.
+  - Libraries Used: Shapely, pyshp
+  - Topics covered: geospatial joins, recursion, quadtrees
 - Data Linkage and Cleaning (String Matching Algorithm Optimization)
+  - (In Progress)
   - Libraries Used: Jellyfish, re
 - Trade Graphs (Netwrok Analysis & Graphs)
+  - (In Progress)
   - Libraries Used: NetworkX
  
 ---
 
-## Computer Science with Applications - CAPP 121 (Fall 2025)
+## Computer Science with Applications I - CAPP 121 (Fall 2025)
 This course covered the basic of python programming like data structures, control flows, iterations, oop, recursions and provided an introduction to numpy and pandas. After each module I worked on a programming assignment related to one of the aforementioned core concepts.
 
 Programming Assignments:
