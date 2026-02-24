@@ -1,5 +1,5 @@
-# Relevant CAPP CS Coursework
-This repository lists some of the programming assignments that I worked on as part of the core CAPP curriculum. (Code can be shared on request)
+# Relevant CAPP CS Coursework (code available on request)
+This repository lists some of the programming assignments that I worked on as part of the core CAPP curriculum.
 
 ---
 
