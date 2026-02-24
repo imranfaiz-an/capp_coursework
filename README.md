@@ -11,19 +11,19 @@ This repository lists some of the programming assignments that I worked on as pa
   - Libraries Used: HTTPX, pathlib
   - Topics covered: Caching API data, working with a real API, text analysis
 - Scraping Chicago Parks (Web Scaping)
-  - Built web scrapers to crawl [Chicago Parks](https://www.chicagoparkdistrict.com/parks) website, this assignment provided an introduction to inspecting HTML code for websites and how different divisions, ids and classes can be exploited to get to a specific part of the website and fetch that data (using cssselect and lxml.html libraries). Once I fetch all the data through crawls all webpages for indvidual parks on the website I clean the text using re library and save the complete dataset as JSON.
+  - Built web scrapers to crawl [Chicago Parks](https://www.chicagoparkdistrict.com/parks) website, this assignment provided an introduction to inspecting HTML code for websites and how different divisions, ids and classes can be exploited to get to a specific part of the website and fetch that data (using cssselect and lxml.html libraries). Once I fetched all the data through crawls pf all webpages for indvidual parks, I cleaned the text using the re library and return the complete dataset as JSON.
   - Libraries Used: cssselect, lxml.html, re
 - What's the News (Markov Model & Hash Tables)
-  - Developed a text modeling system using Markov models. This assignment introduced key CS concepts like time complexity and how to implement O(1) data structures to help reduce compute time. I implemented a Hash Table data structure with [linear probing](https://en.wikipedia.org/wiki/Linear_probing) from scratch. The Hash Table had ```__setitem__ & __getitem__``` methods defined where I was explicitly handling collision cases and rehashing the entire table if the length exceeded a certain threshold. Once the Hash Table was implemented I implemented the Markov model (learning algorithm) that takes text as input and return the probabilty that the text comes from a given source.
-  - Topics Covered: time complexity, hash tables, markov models  
+  - Developed a text modeling system using Markov models. This assignment introduced key CS concepts like time complexity and how to implement O(1) data structures to help reduce compute time. I implemented a Hash Table data structure with [linear probing](https://en.wikipedia.org/wiki/Linear_probing) from scratch. The Hash Table had ```__setitem__ & __getitem__``` methods defined where I was explicitly handling collision cases and rehashing the entire table if the length exceeded a certain threshold. Once the Hash Table was implemented, I implemented the Markov model (learning algorithm) that takes text as input and return the probabilty that the text comes from a given source.
+  - Topics Covered: time complexity, hash tables, Markov models  
 - EPA Analysis (Geospatial Data Analysis)
-  - I worked with QuadTree data structure for this assignment and worked on optimizing the function to check if one geospatial data structure contains another (e.g., points within polygons). Using bounding boxes around polygons and checking whether the point is within the boundbox before checking within a polygon I was able to reduce the total computation time significantly. The dataset used was the [US Environmental Protection Agency's Facility Registration Service (FRS)](https://www.epa.gov/frs/epa-frs-facilities-state-single-file-csv-download) facilities which were the geospatial points and census tracts which served as the polygons for the spatial joining. 
+  - I worked with QuadTree data structure for this assignment and worked on optimizing the function to check if one geospatial data structure contains another (e.g., points within polygons). Using bounding boxes around polygons and checking whether the point is within the bounding box before checking within a polygon, I was able to reduce the total computation time significantly. The dataset used was the [US Environmental Protection Agency's Facility Registration Service (FRS)](https://www.epa.gov/frs/epa-frs-facilities-state-single-file-csv-download) facilities which were the geospatial points and census tracts which served as the polygons for the spatial joining. 
   - Libraries Used: Shapely, pyshp
   - Topics covered: geospatial joins, recursion, quadtrees
 - Data Linkage and Cleaning (String Matching Algorithm Optimization)
   - (In Progress)
   - Libraries Used: Jellyfish, re
-- Trade Graphs (Netwrok Analysis & Graphs)
+- Trade Graphs (Network Analysis & Graphs)
   - (In Progress)
   - Libraries Used: NetworkX
  
