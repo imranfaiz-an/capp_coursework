@@ -24,7 +24,7 @@ This repository lists some of the programming assignments that I worked on as pa
   - (In Progress)
   - Libraries Used: Jellyfish, re
 - Trade Graphs (Network Analysis & Graphs)
-  - Woked with graphical data using the [2024 UN Trade Data](https://comtradeplus.un.org/). Wrote function to calculate stats like imports/exports within two countries and simulated trade wars and trade embargos between countries by manipulating the edges in the digraph using the [NetworkX library](https://networkx.org/en/).
+  - Woked with graphical data using the [2024 UN Trade Data](https://comtradeplus.un.org/). Wrote functions to calculate stats like imports/exports within countries, get top trade partners for a country and wrote more involved functions to simulate trade wars and trade embargos between countries and simulate supply chain disruption effects on countries that import from the country facing the disruption. Set up the trade network digraph using the [NetworkX library](https://networkx.org/en/).
   - Libraries Used: NetworkX
  
 ---
