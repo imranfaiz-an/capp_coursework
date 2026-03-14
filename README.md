@@ -7,7 +7,7 @@ This repository lists some of the programming assignments that I worked on as pa
 ## Computer Science with Applications II - CAPP 122 (Winter 2026)
 
 - Congressional Hearings (APIs)
-  - For this assignment I worked with a live API based on the official [congress.gov](https://www.congress.gov/) API. I wrote a module to download, cache and load the API data, after converting the JSON data to a CSV file I do basic word count analysis using ngrams. To finish I wrote CLI to allow users to get a breakdown for the most used words in congress on a given day and to search for a word and get a count of how many times in total it has been heard in congressional hearings.
+  - For this assignment I worked with a live API data based on the official [congress.gov](https://www.congress.gov/). I wrote a module to download, cache and load the API data, after converting the JSON data to a CSV file I do basic word count text analysis using ngrams. To finish I wrote CLI to allow users to get a breakdown for the most used words in congress on a given day and to search for a word and get a count of how many times in total it has been heard in congressional hearings.
   - Libraries Used: HTTPX, pathlib
   - Topics covered: Caching API data, working with a real API, text analysis
 - Scraping Chicago Parks (Web Scaping)
