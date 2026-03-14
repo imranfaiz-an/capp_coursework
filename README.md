@@ -20,8 +20,8 @@ This repository lists some of the programming assignments that I worked on as pa
   - I worked with QuadTree data structure for this assignment and worked on optimizing the function to check if one geospatial data structure contains another (e.g., points within polygons). Using bounding boxes around polygons and checking whether the point is within the bounding box before checking within a polygon, I was able to reduce the total computation time significantly. The dataset used was the [US Environmental Protection Agency's Facility Registration Service (FRS)](https://www.epa.gov/frs/epa-frs-facilities-state-single-file-csv-download) facilities which were the geospatial points and census tracts which served as the polygons for the spatial joining. 
   - Libraries Used: Shapely, pyshp
   - Topics covered: geospatial joins, recursion, quadtrees
-- Data Linkage and Cleaning (String Matching Algorithm Optimization)
-  - (In Progress)
+- Data Linkage and Cleaning (Record Linkage)
+  - Using real world data, I worked on setting up an algorithm that predicts the likelihood that entities from two different data sets match when there isn't a unique identifier available for linkage. Used the [Jaro Winkler Similarity](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) to compare and match strings.
   - Libraries Used: Jellyfish, re
 - Trade Graphs (Network Analysis & Graphs)
   - Woked with graphical data using the [2024 UN Trade Data](https://comtradeplus.un.org/). Wrote functions to calculate stats like imports/exports within countries, get top trade partners for a country and wrote more involved functions to simulate trade wars and trade embargos between countries and simulate supply chain disruption effects on countries that import from the country facing the disruption. Set up the trade network digraph using the [NetworkX library](https://networkx.org/en/).
